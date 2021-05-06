@@ -1,5 +1,5 @@
 /* Nav Bar CSS styling */
-ul {
+.navList {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -7,11 +7,11 @@ ul {
   background-color: #2b4f18;
 }
 
-li {
+.navLink {
   float: left;
 }
 
-li a {
+.navLink a {
   display: block;
   color: white;
   text-align: center;
@@ -20,7 +20,7 @@ li a {
 }
 
 /* Changes the link color when hovered over with cursor */
-li a:hover {
+.navLink a:hover {
   background-color: #a0af84;
 }
 
