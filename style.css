@@ -107,3 +107,25 @@ form textarea {
   border-style: double;
   border-color:aquamarine;
 }
+
+.ateam{display: flex;
+  flex-direction: row;
+  background: gray;}
+
+.ateam > div {
+background-color:green;
+ margin:10px ;
+ padding: 20px;
+ font-size: 30px;
+  }  
+  li.title{
+    color:black;
+    font-size:2rem;
+    text-align: center;
+  }
+
+
+
+
+
+
