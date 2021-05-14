@@ -124,8 +124,49 @@ background-color:green;
     text-align: center;
   }
 
+.veggies1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 1rem;
+  align-items: center;
+}
+.logofarm {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 1rem;
+  align-items: center;
+}
+.bodycolor {
+background-color: rgb(49, 158, 49);
+}
+.orderone {
+background-color:rgb(187, 13, 42);
+}
+.boxsin {
+background-color: linen;
+font-style:italic
+}
+.children {
+background-color: lightblue;
 
 
 
+}
+
+.Paragraph {
+background-color: lightseagreen;
+}
+
+.Better {
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 100px;
+padding-bottom: 100px;
+
+}
 
 
