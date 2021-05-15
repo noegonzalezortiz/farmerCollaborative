@@ -206,3 +206,43 @@ padding-bottom: 100px;
              width: 520px;}
 
              .pol2{align-content: center;}
+
+
+/*Healthyhabits*/
+
+.healthy-headers{
+  text-align: center;
+  color: #009F93;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+
+.healthy-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.healthy-paragraphs{
+  color: #9A049F;
+  font-size: 25px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.survey {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  color: #A0Af84;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
