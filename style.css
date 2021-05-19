@@ -199,7 +199,7 @@ padding-bottom: 100px;
 
 .pol {font-size: 125%;
       font-style: italic;
-             border:green;
+             border:gold;
              border-radius: 30px;
              border-style: dotted;
              height: 230px;
@@ -245,4 +245,10 @@ padding-bottom: 100px;
   margin-right: auto;
   width: 70%;
 }
+
+
+
+
+.asthetic{background-color: darkseagreen;}
+
 
