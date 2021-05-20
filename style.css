@@ -120,7 +120,8 @@ form textarea {
 }
 */
 
-.ateam{display: flex;
+.ateampd {
+  display: flex;
   flex-direction: row;
   background: gray;
 }
@@ -136,12 +137,6 @@ li.titlepd {
   font-size: 2rem;
   text-align: center;
 }
-
-
-
-
-
-
 
 .veggies1 {
   display: block;
@@ -160,83 +155,74 @@ li.titlepd {
   align-items: center;
 }
 .bodycolor {
-background-color: rgb(49, 158, 49);
+  background-color: rgb(49, 158, 49);
 }
 .orderone {
-background-color:rgb(187, 13, 42);
+  background-color: rgb(187, 13, 42);
 }
 .boxsin {
-background-color: linen;
-font-style:italic
+  background-color: linen;
+  font-style: italic;
 }
 .children {
-background-color: lightblue;
-
-
-
+  background-color: lightblue;
 }
 
 .Paragraph {
-background-color: lightseagreen;
+  background-color: lightseagreen;
 }
 
 .Better {
-padding-left: 50px;
-padding-right: 50px;
-padding-top: 100px;
-padding-bottom: 100px;
-
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
-
-
-
-
-
-
-
-
-.imgcontainerpd{
+.imgcontainerpd {
   display: flex;
-  
 }
-.sidepd{
+.sidepd {
   display: flex;
   flex-direction: column;
 }
-.imgpd{
-  display: block; 
-  margin: 5px;}
+.imgpd {
+  display: block;
+  margin: 5px;
+}
 
-.pol {font-size: 125%;
-      font-style: italic;
-             border:gold;
-             border-radius: 30px;
-             border-style: dotted;
-             height: 230px;
-             width: 520px;}
+.pol {
+  font-size: 125%;
+  font-style: italic;
+  border: gold;
+  border-radius: 30px;
+  border-style: dotted;
+  height: 230px;
+  width: 520px;
+}
 
-             .pol2{align-content: center;}
-
+.pol2 {
+  align-content: center;
+}
 
 /*Healthyhabits*/
 
-.healthy-headers{
+.healthy-headers {
   text-align: center;
-  color: #009F93;
-  font-family:'Times New Roman', Times, serif;
+  color: #009f93;
+  font-family: "Times New Roman", Times, serif;
   font-size: 40px;
 }
 
-.healthy-img{
+.healthy-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
 }
 
-.healthy-paragraphs{
-  color: #9A049F;
+.healthy-paragraphs {
+  color: #9a049f;
   font-size: 25px;
   text-align: center;
   display: block;
@@ -257,49 +243,47 @@ padding-bottom: 100px;
   width: 70%;
 }
 
-  /*.rowEB {
+/*.rowEB {
     display:flex;
     flex-flow:row wrap;
     flex:wrap;
     flex-direction:row;
     margin:100px 100px 100px 100px;
   }*/
-  
-  /*.columnEB {
+
+/*.columnEB {
     display:flex;
     padding:1%;
     margin:1%;
     flex:wrap;}*/
 
-    .columnEB {
-      display:inline-block;
-      margin-right:50px;
-      justify-content:center;
-    
-    }
+.columnEB {
+  display: inline-block;
+  margin-right: 50px;
+  justify-content: center;
+}
 
-    .containerEB {
-      margin:auto;
-      width:50%;
-      padding:30px;
-    }
-  
-    .EBh1 {
-      margin-left:100px;
-    }
+.containerEB {
+  margin: auto;
+  width: 50%;
+  padding: 30px;
+}
 
-    .parentcontainer {
-      background: #a0af84;
-      margin: 1rem;
-      padding: 1rem;
-      border-radius: 0.4rem;
-      max-width: 80%;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
+.EBh1 {
+  margin-left: 100px;
+}
 
+.parentcontainer {
+  background: #a0af84;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  max-width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-.asthetic{background-color: darkseagreen;}
-
-
+.asthetic {
+  background-color: darkseagreen;
+}
