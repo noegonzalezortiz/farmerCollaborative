@@ -221,6 +221,9 @@ padding-bottom: 100px;
 
 /*Healthyhabits*/
 
+.healthy-color{
+  background-color: #b8d387;
+}
 .healthy-headers{
   text-align: center;
   color: #009F93;
@@ -232,9 +235,18 @@ padding-bottom: 100px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 32%;
   
 }
+
+.img-healthy-2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  
+}
+
 
 .healthy-paragraphs{
   color: #9A049F;
@@ -250,7 +262,7 @@ padding-bottom: 100px;
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
-  color: #A0Af84;
+  color: #2d3818;
   text-align: center;
   display: block;
   margin-left: auto;
