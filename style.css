@@ -1,6 +1,8 @@
 /*HOME PAGE & GENERAL NAV*/
 body {
   font-family: "Poppins", sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 /* Nav Bar CSS styling */
 .navList {
@@ -190,11 +192,15 @@ padding-bottom: 100px;
 
 
 
+/*About*/
 
 
 
-
-
+.asthetic{
+  background-color: darkseagreen;
+  padding: 20px;
+  border-radius: 5px;
+}
 
 .imgcontainerpd{
   display: flex;
@@ -208,13 +214,15 @@ padding-bottom: 100px;
   display: block; 
   margin: 5px;}
 
-.pol {font-size: 125%;
+.pol {font-size: 1rem;
       font-style: italic;
-             border:gold;
-             border-radius: 30px;
-             border-style: dotted;
-             height: 230px;
-             width: 520px;}
+      border:gold;
+      border-radius: 5px;
+      border-style: dotted;
+      position: center;
+      width:fit-content;
+      padding:10px;
+    }
 
              .pol2{align-content: center;}
 
@@ -314,6 +322,35 @@ padding-bottom: 100px;
     }
 
 
-.asthetic{background-color: darkseagreen;}
+/* Products*/
 
+.logoPro{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  border-radius: 1rem;
+  align-items: center;
+}
 
+.productContainer{
+  background-color: #b8d387;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.vegPro{
+  display: block;
+  padding: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 3rem;
+  align-items: center;
+}
+
+.products{
+  background-color: #b8d387;
+  padding: 20px;
+  border-radius: 10px;
+}
