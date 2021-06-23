@@ -1,8 +1,12 @@
-/*HOME PAGE & GENERAL NAV*/
+/*HOME PAGE & GENERAL */
 body {
   font-family: "Poppins", sans-serif;
   margin-left: 50px;
   margin-right: 50px;
+}
+
+.buttons {
+  align-items: center;
 }
 /* Nav Bar CSS styling */
 .navList {
@@ -122,7 +126,8 @@ form textarea {
 }
 */
 
-.ateam{display: flex;
+.ateam {
+  display: flex;
   flex-direction: row;
   background: gray;
 }
@@ -138,12 +143,6 @@ li.titlepd {
   font-size: 2rem;
   text-align: center;
 }
-
-
-
-
-
-
 
 .veggies1 {
   display: block;
@@ -162,102 +161,95 @@ li.titlepd {
   align-items: center;
 }
 .bodycolor {
-background-color: rgb(49, 158, 49);
+  background-color: rgb(49, 158, 49);
 }
 .orderone {
-background-color:rgb(187, 13, 42);
+  background-color: rgb(187, 13, 42);
 }
 .boxsin {
-background-color: linen;
-font-style:italic
+  background-color: linen;
+  font-style: italic;
 }
 .children {
-background-color: lightblue;
-
-
-
+  background-color: lightblue;
 }
 
 .Paragraph {
-background-color: lightseagreen;
+  background-color: lightseagreen;
 }
 
 .Better {
-padding-left: 50px;
-padding-right: 50px;
-padding-top: 100px;
-padding-bottom: 100px;
-
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
-
-
 
 /*About*/
 
-
-
-.asthetic{
+.asthetic {
   background-color: darkseagreen;
   padding: 20px;
   border-radius: 5px;
 }
 
-.imgcontainerpd{
+.imgcontainerpd {
   display: flex;
-  
 }
-.sidepd{
+.sidepd {
   display: flex;
   flex-direction: column;
 }
-.imgpd{
-  display: block; 
-  margin: 5px;}
+.imgpd {
+  display: block;
+  margin: 5px;
+}
 
-.pol {font-size: 1rem;
-      font-style: italic;
-      border:gold;
-      border-radius: 5px;
-      border-style: dotted;
-      position: center;
-      width:fit-content;
-      padding:10px;
-    }
+.pol {
+  font-size: 1rem;
+  font-style: italic;
+  border: gold;
+  border-radius: 5px;
+  border-style: dotted;
+  position: center;
+  width: fit-content;
+  padding: 10px;
+}
 
-             .pol2{align-content: center;}
-
+.pol2 {
+  align-content: center;
+}
 
 /*Healthyhabits*/
 
-.healthy-color{
+.healthyContainer {
   background-color: #b8d387;
+  align-items: center;
 }
-.healthy-headers{
+.healthy-headers {
   text-align: center;
-  color: #009F93;
-  font-family:'Times New Roman', Times, serif;
+  color: #009f93;
   font-size: 40px;
+  padding: 1rem;
 }
 
-.img-healthy{
+.img-healthy {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 32%;
-  
+  align-items: center;
 }
 
-.img-healthy-2{
+.img-healthy-2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
-  
 }
 
-
-.healthy-paragraphs{
-  color: #9A049F;
+.healthy-paragraphs {
+  color: #9a049f;
   font-size: 25px;
   text-align: center;
   display: block;
@@ -278,53 +270,52 @@ padding-bottom: 100px;
   width: 70%;
 }
 
-  /*.rowEB {
+/*.rowEB {
     display:flex;
     flex-flow:row wrap;
     flex:wrap;
     flex-direction:row;
     margin:100px 100px 100px 100px;
   }*/
-  
-  /*.columnEB {
+
+/*.columnEB {
     display:flex;
     padding:1%;
     margin:1%;
     flex:wrap;}*/
 
-    .columnEB {
-      display:inline-block;
-      margin-right:50px;
-      justify-content:center;
-    
-    }
+.columnEB {
+  display: inline;
+  margin-right: 50px;
+}
 
-    .containerEB {
-      margin:auto;
-      width:50%;
-      padding:30px;
-    }
-  
-    .EBh1 {
-      margin-left:100px;
-    }
+.containerEB {
+  margin: auto;
+  max-width: fit-content;
+  padding: 2rem;
+  float: left;
+  overflow: auto;
+}
 
-   
-   .parentcontainer {
-      background: #a0af84;
-      margin: 1rem;
-      padding: 1rem;
-      border-radius: 0.3rem;
-      max-width: 75%;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
+.EBh1 {
+  text-align: center;
+}
 
+.parentcontainer {
+  overflow: auto;
+  /*background: #a0af84;*/
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  max-width: fit-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* Products*/
 
-.logoPro{
+.logoPro {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -333,13 +324,13 @@ padding-bottom: 100px;
   align-items: center;
 }
 
-.productContainer{
+.productContainer {
   background-color: #b8d387;
   padding: 20px;
   border-radius: 10px;
 }
 
-.vegPro{
+.vegPro {
   display: block;
   padding: 2rem;
   margin-left: auto;
@@ -349,7 +340,7 @@ padding-bottom: 100px;
   align-items: center;
 }
 
-.products{
+.products {
   background-color: #b8d387;
   padding: 20px;
   border-radius: 10px;
