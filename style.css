@@ -198,11 +198,11 @@ li.titlepd {
 }
 .sidepd {
   display: flex;
-  flex-direction: column;
 }
 .imgpd {
-  display: block;
+  width: 600px;
   margin: 5px;
+  align-items: center;
 }
 
 .pol {
